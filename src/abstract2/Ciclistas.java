@@ -14,7 +14,7 @@ public abstract class Ciclistas {
 	
 //metodos
 	public abstract String impimirTipo();
-	public abstract String tipo();
+	public abstract void tipo();
 	
 
 

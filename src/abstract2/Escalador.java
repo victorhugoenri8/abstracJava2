@@ -32,13 +32,14 @@ public class Escalador extends Ciclistas {
 //metodos sobre escritos
 	@Override
 	public String impimirTipo() {
-
-		return null;
+		System.out.println("Es un escalador.");
 	}
 
 	@Override
-	public String tipo() {
-		return null;
+	public void tipo() {
+		System.out.println("Aceleracio promedio: " + this.aceleracionPromedio);
+		System.out.println("Grado de la rampa: " + this.gradoRampa);
+	
 	}
 
 }

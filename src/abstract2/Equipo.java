@@ -11,7 +11,7 @@ public class Equipo {
 	}
 
 //metodos
-	
+	public anadirCiclistas(){};
 
 
 

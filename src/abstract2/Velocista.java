@@ -29,12 +29,13 @@ public class Velocista extends Ciclistas{
 	
 	@Override
 	public String impimirTipo() {
-		return null;
+		return "Velocista";
 	}
 
 	@Override
-	public String tipo() {
-		return null;
+	public void tipo() {
+		System.out.println("Potencia promedio: " + this.potenciaPromedio);
+		System.out.println("Velocidad Promedio: " + this.velocidadPromedio);
 	}
 	
 }
