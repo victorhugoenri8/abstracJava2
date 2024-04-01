@@ -20,7 +20,7 @@ public class Contrarelojista extends Ciclistas{
 
 	@Override
 	public String impimirTipo() {
-		System.out.println("Es un contrarelojista.");
+		return "Contrarelojista" ;
 	}
 
 	@Override
